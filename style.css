@@ -1,0 +1,349 @@
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    
+}
+
+
+
+
+/*HOME SECTION*/
+
+
+.home-section{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(253, 208, 215);
+    background-position: center;
+    background-size: cover;
+  
+}
+
+.home-logo{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    margin: 20px;
+    margin-top: -2%;  
+}
+
+header{
+    width: 100%;
+    height:100px;
+    display: flex;
+    justify-content: space-between;   
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 30px;
+    padding-left: 30px;
+    padding-top: 9%;
+ 
+   
+  
+}
+
+.nav{
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+
+
+.flower-vase-container{
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 66%;
+  
+   
+
+}
+
+.image{
+     padding-top: -60%;
+    margin-top: -26%;
+  
+
+}
+
+.Amaizing-text{
+    color: rgb(233, 14, 149);
+    margin-left: 19%;
+    margin-top:-2%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 83px;
+    width: 80%;
+    font-style: italic;
+}
+
+.sub-text{
+    color: white;
+    margin-left: 20%;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+/*ABOUT US SECTIOM*/
+
+
+.about-us-section{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+.heading-text{
+    color:black;
+    background-color: pink;
+    margin-left: 10%;
+    margin-top:5%;
+    padding-top:1.2%;
+    padding-left: 37%;
+    height: 12%;
+    width:80%;
+    
+}
+.about-us-pic{
+    position: absolute;
+    margin-top: -5%;
+    margin-left: 7%;
+    
+}
+
+.about-us-info{
+    width: 57%;
+    height: 70vh;
+    margin-left: 30%;
+    
+}
+.about-us-info p{
+    color: rgb(19, 5, 5);
+    font-size: 25px;
+    padding-top: 10%;
+    padding-left: 20%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+
+}
+
+.about-us-info  h4{
+    color: red;
+    padding-left: 20%;
+    padding-top: 4%;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    
+}
+
+
+/*CONTACT US PAGE*/
+
+.contact-us-sections{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    
+}
+.about-us-heading{
+    margin-top: 9%;
+    margin-left: 4%;
+}
+.about-us-heading h1{
+    color:black;
+    position: absolute;
+    background-color: pink;
+    margin-left: 7%;
+    margin-top:-7%;
+    padding-top: 1.2%;
+    padding-left: 34%;
+    height: 12%;
+    width:80%;
+    
+}
+
+form{
+    position: absolute;
+    margin-left: 6%;
+    width: 43%;
+    margin-top: 2%;
+    height: 70%;
+    box-shadow: 0px 0px 3px 0px;
+}
+#fullname{
+ width: 80%;
+ margin-top: 20px;
+ height: 50px;
+ margin-left: 10%;
+ padding-left: 10px;
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#email{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 20px;
+    height: 50px;
+    padding-left: 10px;
+}
+#message{
+   width: 80%;
+   margin-left: 10%;
+    margin-top: 20px;
+    height: 200px;
+    padding-left: 10px;
+}
+
+#submit-button{
+margin-top:20px;
+margin-left: 26%;
+width:45%;
+height:50px;
+border: none;
+background-color:black;
+color: white;
+font-size: 18px;
+
+}
+
+.contact-us-pic{
+    position: absolute;
+    margin-left: 52%;
+}
+
+
+/* TOP PRODUCTS*/
+
+.top-products-section{
+    background-color:white;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.top-products-section h1{
+    color:black;
+    position: absolute;
+    background-color: pink;
+    margin-left: 9%;
+    margin-top:3%;
+    padding-top: 1.2%;
+    padding-left: 34%;
+    height: 12%;
+    width:80%;
+}
+
+.product1-container{
+    width: 260px;
+    height: 300px;
+    background-color: white;
+    box-shadow: 1px 1px 3px 1px;
+    margin-top: 16%;
+    margin-left: 8%;
+    font-size: 20px;
+    padding-left: 2%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    color: grey;
+}
+.product1{
+
+    height: 200px;
+    padding-left:1%;
+
+}
+
+.product2{
+
+    height: 200px;
+  
+
+}
+.product2-container{
+    width: 260px;
+    height: 300px;
+    background-color: white;
+    box-shadow: 1px 1px 3px 1px;
+    font-size: 20px;
+    margin-top: -22%;
+    margin-left: 29%;
+    padding-left: 2.8%;
+    padding-top: 1%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    color: grey;
+}
+
+.product3{
+
+    height: 200px;
+  
+
+}
+.product3-container{
+    width: 260px;
+    height: 300px;
+    background-color: white;
+    box-shadow: 1px 1px 3px 1px;
+    font-size: 20px;
+    margin-top: -22%;
+    margin-left: 50%;
+    padding-left: 1%;
+    padding-top: 1%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    color: grey;
+}
+
+.product4{
+
+    height: 200px;
+  
+
+}
+.product4-container{
+    width: 260px;
+    height: 300px;
+    background-color: white;
+    box-shadow: 1px 1px 3px 1px;
+    font-size: 20px;
+    margin-top: -22%;
+    margin-left: 71%;
+    padding-left: 3%;
+    padding-top: 1%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    color: grey;
+}
+#slider{
+    overflow: hidden;
+}
+#slider figure{
+  position:relative;
+  width: 500%; 
+  margin:0%;
+  left: 0;
+  animation:11s slider infinite;
+  font-size: 0%;
+  text-align:left;
+}
+#slider figure img{
+    float:left;
+    width:20%;
+    height:400px;
+
+}
+@keyframes slider{
+    0%{left:0;}
+    20%{left:0;}
+    25%{left:-100%}
+    45%{left:-100%}
+    50%{left:-200%}
+    70%{left:-300%}
+    95%{left:-300%}
+    100%{left:0;}
+    
+}
